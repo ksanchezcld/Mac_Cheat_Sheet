@@ -1,0 +1,13 @@
+dscl . -create /Users/dscl2
+
+dscl . -create /Users/dscl2 UserShell /bin/bash
+
+dscl . -create /Users/dscl2 RealName "DSCL 2"
+
+dscl . -create /Users/dscl2 UniqueID 8005
+
+dscl . -create /Users/dscl2 PrimaryGroupID 20
+
+dscl . -create /Users/dscl2 NFSHomeDirectory /Users/dscl2
+
+dscl . -passwd /Users/dscl2 password
